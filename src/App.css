@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 4em;
+  margin-right: 13em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+.carnaContainer {
+  background-color: #800080;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  background-color: #EFB41C;
+  width: 13vw;
+  height: 36vh;
+  color: #ED2E2E;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carnaSection {
+  display: flex;
+  flex-wrap: wrap;
+  width: 46.1vw;
+  gap: 3em;
+  margin-top: 2em;
+}
+
+img {
+  width: 7em;
+}
